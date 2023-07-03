@@ -1,0 +1,140 @@
+.top{
+    background: url(/img/header-bg2.jpg) no-repeat;
+    background-position: bottom;
+    background-size: cover;
+}
+
+.header{
+    background: #fff;
+}
+
+a{
+    color:#000 ;
+}
+
+.logo-link img{
+    width: 113px;
+    height: 44px;
+}
+
+.header-end.fixed .logo-link:last-of-type{
+    display: none;
+}
+
+.header-end .logo-link:first-of-type{
+    display: none;
+}
+
+.header-end.fixed .logo-link:first-of-type{
+    display: block;
+}
+
+.header-end.fixed .mobile-menu_button span,
+.header-end.fixed .mobile-menu_button::after,
+.header-end.fixed .mobile-menu_button::before{
+    background: #fff;
+}
+
+.mobile-nav_top .logo-link{
+    display: block;
+}
+
+.header-end .search_open img:first-of-type{
+    display: none;
+}
+
+.header-end.fixed .search_open img:first-of-type{
+    display: block;
+}
+
+.header-end.fixed .search_open img:last-of-type{
+    display: none;
+}
+
+.header-end.fixed a{
+    color: #fff;
+}
+
+.social-media img{
+    filter: brightness(0);
+}
+
+.social-media img:hover{
+    filter: brightness(0);
+}
+
+.social-responsibility{
+    background: url(/img/soc-res_bg.svg) no-repeat left;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.social-responsibility_container{
+    margin-top: 50px;
+    max-width: 950px;
+    margin: 20px;
+}
+
+.social-responsibility_container h1{
+    font-size: 48px;
+    font-weight: bold;    
+}
+
+.social-responsibility_container p{
+    margin-top: 98px;
+    font-size: 22px;
+    font-weight: medium;
+    text-align: center;
+    align-self: center;
+}
+
+
+
+.footer{
+    color: #000;
+    background: url(/img/footer-bg2.jpg) no-repeat;
+    background-size: cover;
+    
+}
+
+.footer_logo-link{
+    margin-bottom: 30px;
+}
+
+.mobile-menu_button{
+    background: transparent;
+    margin-right: 20px;
+}
+
+.mobile-menu_button::before, .mobile-menu_button::after, .mobile-menu_button span{
+    background: #000;
+}
+
+.top_icon{
+    position: absolute;
+    right: 100px;
+    top: 500px;
+}
+
+@media screen and (max-width: 1127px){
+    .top {
+        height: 600px;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .top_icon {
+        right: 0;
+    }
+
+    .footer{
+        height: 1200px;
+    }
+}
+
+@media screen and (max-width: 550px){
+    .top_icon {
+        display: none;
+    }
+}

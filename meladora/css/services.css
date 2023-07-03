@@ -1,0 +1,133 @@
+.services.main{
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.services{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    background: url(/img/soc-res_bg.svg) left top no-repeat;
+}
+
+.about-us_qualities-icons-item{
+    margin: 10px;
+}
+
+.services-container{
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.services-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: left;
+    margin-top: 20px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.services-items div{
+    max-width: 320px;
+    margin: 15px;
+}
+
+.services-item_2{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.services-item_2 img{
+    width: 320px;
+}
+
+.services-number{
+    font-size: 120px;
+    color: #918F8F;
+}
+
+.services-subtitle{
+    font-size:23px;
+    margin-bottom: 13px;
+    color: #1A5221;
+}
+
+.services-text{
+    margin-bottom: 13px;
+}
+
+.services-container.main{
+    max-width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.services-items.main{
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    max-width: 1130px;
+}
+
+.services-items.main div{
+    max-width: unset;
+}
+
+.services-item.main{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 1130px;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.services-item.main img{
+    max-width: 550px;
+    max-height: 550px; 
+    object-fit: fill; 
+}
+
+.services-item.main p{
+    max-width: 555px;
+}
+
+.services-item.main:nth-of-type(2){
+    flex-direction: row-reverse;
+}
+
+.services-items.main img{
+    width: 100%;
+}
+
+.services-icon{
+    width: 80px !important;
+    height: 80px !important;
+    align-self: left;
+}
+
+@media screen and (max-width:1300px) {
+    .services-item.main{
+        flex-direction: column;
+    }
+    
+    .services-items.main{
+        max-width: 550px;
+    }
+
+    .services-item.main:nth-of-type(2){
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:1096px) {
+    .services-item_2{
+        flex-direction: column;
+    }
+}

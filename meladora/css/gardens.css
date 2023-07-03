@@ -1,0 +1,64 @@
+.gardens.main{
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.gardens-container.main{
+    max-width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gardens-items.main{
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    max-width: 1130px;
+}
+
+.gardens-items.main div{
+    max-width: unset;
+}
+
+.gardens-item.main{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    max-width: 1130px;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.gardens-item.main img{
+    max-width: 550px;
+    max-height: 550px; 
+    object-fit: fill; 
+}
+
+.gardens-item.main p{
+    max-width: 555px;
+}
+
+.gardens-item.main:nth-of-type(2){
+    flex-direction: row;
+}
+
+.gardens-items.main img{
+    width: 100%;
+}
+
+
+@media screen and (max-width:1300px) {
+    .gardens-item.main{
+        flex-direction: column;
+    }
+    
+    .gardens-items.main{
+        max-width: 550px;
+    }
+
+    .gardens-item.main:nth-of-type(2){
+        flex-direction: column;
+    }
+}

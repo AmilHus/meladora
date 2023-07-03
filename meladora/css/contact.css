@@ -1,0 +1,74 @@
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: center;
+    background: url(/img/soc-res_bg.svg) no-repeat left top;
+}
+
+.contact_container{
+    max-width: 1060px;
+    width: 100%;
+}
+
+.contact_items{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.contact_item{
+    display: flex;
+    flex-direction: column;
+    background: #F5F5F5;
+    max-width: 320px;
+    width: 100%;
+    min-height: 300px;
+    margin: 50px 20px 50px 20px;
+}
+
+.contact-icon{
+    align-self: center;
+    width: 140px;
+    height: 140px;
+    position: relative;
+    bottom: 65px;
+    background: #fff;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.07);
+
+}
+
+.contact_item p{
+    margin: 10px;
+    font-size: 20px;
+    font-family: 'Cormorant Garamond',regular;
+    line-height: 40px;
+
+}
+
+.contact_title{
+    margin: 50px 100px 90px 100px;
+    font-size: 40px;
+    align-self: center;
+    font-weight: bold;
+}
+
+@media screen and (max-width:1100px) {
+    .contact_items {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contact_item p {
+        text-align: center;
+    }
+
+    .contact_title{
+        text-align: center;
+    }
+}
